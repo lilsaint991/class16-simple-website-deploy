@@ -4,5 +4,7 @@ jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print-hello
-        run: echo "Hello World"
+      - name: print-hello-world
+        run: echo "Hello world"
+      - name: run-sleep
+        run:  sleep 30
